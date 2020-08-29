@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-label {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(247, 34, 16);
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.trump .news {
+    width: 334.45px;
+    height: 223.25px;
+    position: relative;
+    background-image: url(../images/Trump.png);
+    background-size: cover;
+}
+.blake .news {
+    width: 334.45px;
+    height: 223.25px;
+    position: relative;
+    background-image: url(../images/Blake.png);
+    background-size: cover;
+}
+.airforce .news {
+    width: 334.45px;
+    height: 223.25px;
+    position: relative;
+    background-image: url(../images/Remdesivir.png);
+    background-size: cover;
+}
+.remdesivir .news {
+    width: 334.45px;
+    height: 223.25px;
+    position: relative;
+    background-image: url(../images/Michelle.png);
+    background-size: cover;
+}
+.michelle .news {
+    width: 334.45px;
+    height: 223.25px;
+    position: relative;
+    background-image: url(../images/Michelle.png);
+    background-size: cover;
+}
+/*cards area*/
+.card {
+    width: 334.45px;
+    position: relative;
+}
+.card .card-img-top {
+    width: 334.45px;
+    height: 223.25px;
+}
+.rankings {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgb(53, 129, 244);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 195px;
+    left: 0;
+}
+.brands .rankings {
+    width: 150px;
+}
+/*middle column*/
+.biothriller {
+    margin: 0px 20px;
+}
+.biothriller .news {
+    height: 304.533px;
+    width: 494.45px;
+    position: relative;
+    background-image: url(../images/ilaria.png);
+    background-size: cover;
+}
+/*my turn section*/
+.top-story .my-turn{
+    display: flex;
+    margin: 20px;
+}
+.my-turn .column {
+    display: table-cell;
+    width: 33.33333%;
+    position: relative;
+}
+.my-turn img {
+    height: 151.483px;
+    width: 151.483px;
+}
+/*culture and travel section*/
+.top-story .culture-and-travel {
+    display: flex;
+    margin: 10px 20px;
+}
+.culture-and-travel .column {
+    display: table-cell;
+    width: 33.33333%;
+    position: relative;
+}
+.culture-and-travel img {
+    height: 151.483px;
+    width: 151.483px;
+}
+.culture-and-travel .travel {
+    background-color: rgb(194, 212, 215);
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    line-height: 20px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 119px;
+}
+/*more stories section*/
+.more-stories {
+    margin: 20px;
+}
+.more-stories img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.more-stories p {
+    margin-top: 10px;
+}
+.more-stories .column {
+    display: flex;
+    margin: 10px;
+    border-top: 1px solid rgb(51, 51, 51);
+}
+/*THE RIGHT COLUMN*/
+/*the debate section*/
+.the-debate a {
+    color: inherit;
+    text-decoration: none;
+}
+.the-debate .column {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid rgb(51, 51, 51);
+}
+.the-debate .column img {
+    width: 63px;
+    height: 63px;
+    margin-right: 20px;
+}
+/*cards area*/
+/*THE MAGAZINE ONE ROW*/
+.the-magazine-one .column {
+    margin: 20px;
+}
+.the-magazine-one img {
+    width: 300px;
+    height: 283px;
+}
+.the-magazine-one .maintain-size {
+    height: initial;
+    width: 300px;
+    padding-top: 0px;
+}
+/*THE MAGAZINE TWO ROW*/
+.the-magazine-two .column {
+    margin: 20px;
+}
+.the-magazine-two img {
+    width: 300px;
+    height: 283px;
+}
+.the-magazine-two .maintain-size {
+    height: 300px;
+    width: 300px;
+    padding-top: 0px;
+}
+/*EDITORS PICK ROW*/
+.editors-pick-one {
+    padding: 20px;
+}
+.editors-pick-one .column {
+    margin: 20px 20px 40px 20px;
+    position: relative;
+}
+.editors-pick-one img {
+    width: 283px;
+    height: 188.9px;
+}
+.editors-pick-one .rankings {
+    position: absolute;
+    left: 0;
+    top: 159px;
+    color: rgb(247, 34, 16);
+}
